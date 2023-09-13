@@ -54,8 +54,8 @@ $instance1->addNumber(1001);
 $instance1->addNumber(999);
 var_dump($instance1->getNumbers());
 
-// $instance1->removeNumber(1000);
-// $instance1->removeNumber(1001);
-// $instance1->removeNumber(999);
-// var_dump($instance1->getNumbers());
+$instance1->removeNumber(1000);
+$instance1->removeNumber(1001);
+$instance1->removeNumber(999);
+var_dump($instance1->getNumbers());
 ?>
